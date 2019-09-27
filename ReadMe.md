@@ -4,7 +4,7 @@ This  firmware can change your RIGOL DG8xx generator and DG9xx to DG992, it can 
 
 2.Disassemble your DG811 or other model.
 
-3.Find EEPROM with 'RC16'(Fujitsu MB85RC16) screen printing on the AM3352 core board and take it down. Before rewriting the data in it, you should write a program to backup the data of EEPROM , this program is very easy, so I won't give it to you.
+3.Find EEPROM with 'RC16'(Fujitsu MB85RC16) code on the AM3352 core board and take it down. Before rewriting the data in it, you should write a program to backup the data of EEPROM , this program is very easy, so I won't give it to you.
 
 4.Connect EEPROM to Arduino used I2C bus, WP pin is  NC, and you can refer https://github.com/sosandroid/FRAM_MB85RC_I2C , I use this library to driver MB85RC16.
 
