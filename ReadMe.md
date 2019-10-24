@@ -1,4 +1,4 @@
-This  firmware can change your RIGOL DG8xx generator and DG9xx to DG992, it can output up to 100 Mhz, but the DG811 has a maximum output of 10MHZ and only one channel is available,  and the only good thing about it is that it's cheap. The software and hardware of DG811 and DG992 are the same,so I use IDA to decompile the DG8's firmware and find a method whitch can change my DG811 to DG992.
+This  firmware can change your RIGOL DG8xx generator and DG9xx to DG992(and also can change DG20xx to DG2102), it can output up to 100 Mhz, but the DG811 has a maximum output of 10MHZ and only one channel is available,  and the only good thing about it is that it's cheap. The software and hardware of DG811 and DG992 are the same,so I use IDA to decompile the DG8's firmware and find a method whitch can change my DG811 to DG992.
 
 1.You have to prepare an Arduino Uno R3 and some new MB85RC16, and use some Arduino firmware download tools(https://github.com/uname/Arduloader) to flash this firmware to your Arduino.
 
